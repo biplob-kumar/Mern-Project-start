@@ -1,0 +1,20 @@
+
+.regisetr-content textarea {
+  padding: 20px 55px;
+}
+
+
+/*  mobile css start */
+
+@media only screen and (max-width: 600px) {
+  .container.grid.grid-to-cols {
+    display: grid;
+}
+
+.regestration-image img {
+  width: 100%;
+  height: auto !important;
+}
+
+
+}
