@@ -1,0 +1,46 @@
+import {  } from 'react'
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+//  browser router 
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+//  all pages 
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Service from './pages/Service';
+import Register from './pages/Register';
+import Login from './pages/Login';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Error from './pages/Error';
+
+
+//  components
+
+
+
+function App() {
+
+
+  return (
+    <>
+
+ <BrowserRouter>
+<Navbar/>
+ <Routes>
+  <Route  path='/' element={<Home/>} />
+  <Route  path='/about' element={<About/>} />
+  <Route  path='/contact' element={<Contact/>} />
+  <Route  path='/service' element={<Service/>} />
+  <Route  path='/register' element={<Register/>} />
+  <Route  path='/login' element={<Login/>} />
+  <Route  path='*' element={<Error/>} />
+
+ </Routes>
+ <Footer/>
+ </BrowserRouter>
+    </>
+  )
+}
+
+export default App

@@ -2,9 +2,10 @@ import React from 'react'
 import {  Link} from "react-router-dom";
 import '../style/home.css'
 import Heoimg from "../assets/images/home.png";
-import Analyticks from '../components/Analyticks';
+
 import Service from './Service';
 import Contact from './Contact';
+import Analyticks from '../components/Analyticks';
 const Home = () => {
   return (
     <div>

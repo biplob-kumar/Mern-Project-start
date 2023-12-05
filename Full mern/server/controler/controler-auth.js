@@ -67,6 +67,8 @@ const login = async (req, res) => {
         } else {
             res.status(401).json({ message: "Invalid Email or Password" });
         }
+
+        
     } catch (error) {
         console.error(error);
         res.status(500).send({ msg: "Internal server error" });

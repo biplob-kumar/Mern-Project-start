@@ -1,0 +1,34 @@
+
+
+/***** analytics Section *****/
+
+.section-analytics {
+    margin: 5.6rem 0;
+  
+    & .container {
+      background-color: var(--btn-color);
+      border-radius: 1rem;
+    }
+  
+    & .grid {
+      color: var(--bg-color);
+  
+      & .div1 {
+        text-align: center;
+        border-right: 2px solid var(--);
+  
+        &:last-child {
+          border: none;
+        }
+        & h2 {
+          font-weight: 700;
+          font-size: 3rem;
+        }
+        & p {
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+  
+  /***** End analytics Section *****/

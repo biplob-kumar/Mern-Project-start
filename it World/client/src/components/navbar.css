@@ -1,0 +1,60 @@
+
+
+
+
+header{
+    background-color: rgb(48, 46, 46);
+}
+.logo_brand a{
+    text-decoration: none;
+    color: var(--btn-color);
+    font-size: 2rem;
+}
+.logo_brand a span{
+    font-weight: bold;
+    color: white;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3.8rem;
+
+}
+nav {
+    margin-top: 10px;
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+      margin-top: 1rem !important;
+      padding: 20px 10px ;
+     text-decoration: none;
+     text-decoration: inherit;
+}
+
+
+/*  mobile css  */
+@media only screen and (max-width: 600px) {
+    button.btn.secundary-btn {
+        margin-left: 0rem;
+    }
+      
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0.8rem;
+    }
+  
+
+    nav ul li a{
+  display: none;
+  }
+
+  }
